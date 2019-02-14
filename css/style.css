@@ -1,0 +1,57 @@
+/* TODO: Put your CSS code in here */
+body {
+  background-color: #dee1e6
+}
+.wrapper{
+  /*background-color: #dee1e6*/
+}
+#main {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+}
+
+.container {
+  padding: 25px;
+  max-width: 400px;
+}
+
+.card {
+  /*display: flex;*/
+  flex-grow: 1;
+  background-color: rgb(50,50,50);
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  /*max-width: 400px;*/
+  padding: 25px;
+  color: white;
+  /*height: 200px;*/
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#submit-coords{
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+}
+.description p {
+  margin-bottom: 0px;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+.info p {
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.info p:first-child {
+  margin-left: 0px;
+}
